@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Neue", cursive;
+  font-size: 24px;
+  background-color: lightblue;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.example {
+  width: 400px;
+  height: 200px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+/* Первый блок */
+
+.text1 {
+  font-family: "Luxurious Roman", cursive;
+  font-size: 45px;
+  color: lightcoral;
+  transition: 1s 0.25s;
+  text-shadow: 13px 8px 4px rgba(206, 90, 54, 0.48);
+}
+.block1:hover .text1 {
+  text-shadow: 27px 14px 4px rgba(206, 90, 54, 0.48);
+}
+/* ---------------- */
+/* Второй блок */
+.block-property2 {
+  margin: 0;
+  background-color: palevioletred;
+  border: 0px;
+
+  transition: 1s 0.25s;
+}
+.text2 {
+  background-color: inherit;
+}
+.block2:hover .block-property2 {
+  border: 10px solid;
+  border-color: lightseagreen;
+  border-radius: 60px 0;
+}
+/* -------------- */
+/* Третий блок */
+.block-property3 {
+  margin: 0;
+  background-color: tomato;
+  border: 0px;
+  transition: 1s 0.25s;
+}
+.text3 {
+  background-color: inherit;
+}
+.block3:hover .block-property3 {
+  border: 10px solid;
+  border-color: blueviolet;
+  border-style: inset;
+}
+/* --------------- */
